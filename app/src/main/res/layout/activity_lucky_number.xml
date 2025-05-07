@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/my_gradient_background"
     tools:context=".LuckyNumberActivity">
 
     <TextView
@@ -12,7 +13,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:width="100dp"
+        android:height="100dp"
+        android:background="@drawable/frame_textview_shape"
         android:text="Your Lucky Number is:"
+        android:textColor="@color/white"
+        android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/shareMyLuckyNum"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
