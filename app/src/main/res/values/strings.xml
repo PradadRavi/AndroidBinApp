@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">LucyNumber</string>
+    <string-array name="array">
+        <item>
+            Kotlin
+        </item>
+        <item>
+            java
+        </item>
+    </string-array>
 </resources>

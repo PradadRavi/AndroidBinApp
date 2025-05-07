@@ -48,4 +48,9 @@ class LuckyNumberActivity : AppCompatActivity() {
         i.putExtra(Intent.EXTRA_TEXT,"His lucky number is $num")
         startActivity(i)
     }
+    // Color
+    //Kotlin
+    val color : Int = resources.getColor(R.color.black)
+    // JAVA
+    int color_purple = res.getColor(R.color.black)
 }
